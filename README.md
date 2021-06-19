@@ -141,9 +141,41 @@ public class IntegerList {
             listItems += "]";
             return listItems;
         }
+}
+    
+    
+    
+    
+    
+    
+    //ListDemo
+    
+    package src;
+
+import src.datastuctures.IntegerLinkedList;
+
+public class DemoList {
+    public static void main(String[] args){
+        IntegerList list = new IntergerList();
+
+        list.add(10);   //0
+         list.add(12);  //1
+        list.add(145);  //2
+        list.add(41);   //3
+        list.add(343);  //4
+        list.add(343);  //5
+        list.add(343);  //6
+        list.add(344);  //7
+        System.out.println("Item at index 3 :" + list.get(3));
+        System.out.println("First item : " + list.getFirst());
+        System.out.println("last item :" + list.getfast());
+        System.out.println("Size :" + list.geSize());
 
 
-    }
+ }
+}
+
+    
 
 
 
